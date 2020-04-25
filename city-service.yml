@@ -1,0 +1,6 @@
+spring:
+  zipkin:
+    sender:
+      type: web
+  main:
+    allow-bean-definition-overriding: true
