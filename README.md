@@ -106,7 +106,7 @@ Weather
 # Add spring-cloud extension to Azure cli
 az extension add --name spring-cloud
 # create instance of Azure Spring Cloud and name it asc-amiler2020-001
-az spring-cloud create -n asc-amiler2020-001 -g rg-amiler2020-001 -l westus2z
+az spring-cloud create -n asc-amiler2020-001 -g rg-amiler2020-001 -l westus2
 # configure default values so that not require to repeat it later
 az configure --defaults group=rg-amiler2020-001
 az configure --defaults spring-cloud=asc-amiler2020-001
